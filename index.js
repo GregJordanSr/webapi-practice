@@ -2,6 +2,7 @@
 //separation of concerns (Soc)
 // single responsibility principle (SRP)
 //  - each module or file has a single responsibility
+require('dotenv').config()
 const server =  require('./api/server.js');
 
 const port = process.env.PORT || 8000;
